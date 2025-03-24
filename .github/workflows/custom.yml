@@ -6,6 +6,6 @@ jobs:
     steps: 
       - name: checkout
         uses: actions/checkout@v4
-      - name: custom-action-use
+      - name: calling-the-custom-action
         uses: aparna0622/custom-action@main
       
