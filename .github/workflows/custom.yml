@@ -1,0 +1,11 @@
+name: Custom
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: custom-action-use
+        uses: aparna0622/custom-action@main
+      
